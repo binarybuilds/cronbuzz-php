@@ -1,0 +1,26 @@
+{
+  "name": "binarybuilds/cronbuzz-php",
+  "description": "Official php client for cronbuzz API",
+  "keywords": ["cronbuzz", "php", "cron jobs", "monitoring"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "CronBuzz",
+      "email": "support@cronbuzz.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+  },
+  "autoload": {
+    "psr-4": {
+      "BinaryBuilds\\CronBuzzPHP\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
